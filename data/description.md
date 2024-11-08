@@ -13,12 +13,13 @@ Example:
 ## Raw data and the whole dataset
 - Refer to: http://catlas.org/humanbrain/#!/
 - Consist of 46 types of cell samples of human brain.
-- The length of each DNA sequence is: 499.
+- The length of each DNA sequence is: `499`.
 ## Downsampled datasets: 500bp & 2,000bp
-- Randomly shuffle the fragment files of the original datasets and select the first 500/2k fragments from each file.
+- Randomly shuffle the fragment files of the original datasets and select the first `500/2000` fragments from each file.
 - Consist of 6 types of cell samples of human brain: ASCT, OPC, OGC, MGC, ITL23, VIP. 
-- The length of each DNA sequence is: 499.
+- The length of each DNA sequence is: `499`.
 ## Extended dataset
-- Extend the fragment files to get `3000bp` DNA sequences instead of `499bp` DNA sequences.
-- Randomly shuffle the fragment files of the original datasets and select the first 500 fragments from each file.
-- Consist of 6 types of cell samples of human brain: ASCT, OPC, OGC, MGC, ITL23, VIP. 
+- Extend the fragment files to get `2999bp` DNA sequences instead of `499bp` DNA sequences.
+- Randomly shuffle the fragment files of the original datasets and select the first `2000` fragments from each file.
+- Consist of 6 types of cell samples of human brain: ASCT, OPC, OGC, MGC, ITL23, VIP.
+- The length of each DNA sequence is: `2999`.
